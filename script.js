@@ -1,13 +1,6 @@
-/* =====================================================
-   BICUNDAS — WEBSITE SCRIPT
-   Clean & Professional
-===================================================== */
+
 
 document.addEventListener("DOMContentLoaded", () => {
-
-    /* =========================
-       MOBILE MENU
-    ========================= */
 
     const menuToggle = document.getElementById("menuToggle");
     const navLinks = document.getElementById("navLinks");
@@ -58,10 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* =========================
-       SMOOTH SCROLL
-    ========================= */
-
     const internalLinks = document.querySelectorAll('a[href^="#"]');
 
     internalLinks.forEach(link => {
@@ -98,10 +87,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-
-    /* =========================
-       ACTIVE NAVIGATION
-    ========================= */
 
     const sections = document.querySelectorAll("main section[id]");
     const navigationLinks = document.querySelectorAll(".nav-link");
@@ -144,10 +129,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateActiveLink();
 
-
-    /* =========================
-       CONTACT FORM
-    ========================= */
 
     const contactForm = document.getElementById("contactForm");
 
@@ -211,10 +192,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* =========================
-       HEADER SHADOW ON SCROLL
-    ========================= */
-
     const header = document.querySelector(".header");
 
     function updateHeader() {
@@ -235,10 +212,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateHeader();
 
-
-    /* =========================
-       PREVENT EMPTY HASH JUMP
-    ========================= */
 
     document.querySelectorAll('a[href="#"]').forEach(link => {
 
